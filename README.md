@@ -5,7 +5,7 @@ MyGreenDAO
 # Usage
 
 ### Stept 1
-欢迎 **Fork** 与 **Star**，随后你可以选择「Clone」or 「Download」
+你可以选择「Clone」or 「Download」，当然，我非常欢迎你 **Fork** 与 **Star**，这是对我最大的肯定！
 
 ### Stept 2
 
