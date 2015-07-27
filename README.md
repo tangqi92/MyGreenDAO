@@ -2,10 +2,12 @@ MyGreenDAO
 ==========
  MyGreenDAO 是我在学习使用 ORM 框架 greenDAO 时精简出来的，旨在帮助大家能方便的在 Android Studio 上使用并扩展 [greenDAO](http://greendao-orm.com/)
 
+![](http://7xikfc.com1.z0.glb.clouddn.com/mygreendao_demo.gif)
+![](http://7xikfc.com1.z0.glb.clouddn.com/mygreendao_demo_2.png)
 # Usage
 
 ### Stept 1
-你可以选择「Clone」or 「Download」，当然，我非常欢迎你 **Fork** 与 **Star**，这是对我最大的肯定！
+你可以选择「Clone」or 「Download」，当然，我非常欢迎你 **Fork** 与 **Star** 同时 **follow** 我，这是对我最大的肯定！
 
 ### Stept 2
 
@@ -25,6 +27,9 @@ MyGreenDAO
 new DaoGenerator().generateAll(schema, "../MyGreenDAO/app/src/main/java-gen");
 ```  
 
+# Download
+[MyGreenDAO-1.0.0.apk](https://s3.amazonaws.com/github-cloud/releases/39712109/aa4b3f94-34bb-11e5-9322-dcc06b0ef936.apk?response-content-disposition=attachment%3B%20filename%3DMyGreenDAO-1.0.0.apk&response-content-type=application/vnd.android.package-archive&AWSAccessKeyId=AKIAISTNZFOVBIJMK3TQ&Expires=1438013219&Signature=9yBAk7Pc5vT3Wxr0bxZlv2ikkq0%3D)
+
 # Documentation
 
 [ORM 框架之 greenDAO 使用心得](http://itangqi.me/android/using-greendao-experience/)  
@@ -37,7 +42,7 @@ new DaoGenerator().generateAll(schema, "../MyGreenDAO/app/src/main/java-gen");
 
 - Weibo：[@汤奇V](http://weibo.com/qiktang)
 - Gmail：[imtangqi#gmail.com](mailto:imtangqi@gmail.com "欢迎与我联系")
-- Blog: [http://itangqi.me/](http://itangqi.me/)  
+- Blog: [http://itangqi.me](http://itangqi.me)  
 
 # License
 
