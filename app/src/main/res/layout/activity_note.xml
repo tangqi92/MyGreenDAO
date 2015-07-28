@@ -4,37 +4,39 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
 
+
+    <EditText
+        android:id="@+id/editTextNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a note you want to add or query"
+        android:inputType="text" />
+
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <EditText
-            android:id="@+id/editTextNote"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:hint="Enter new note"
-            android:inputType="text"></EditText>
-
         <Button
             android:id="@+id/buttonAdd"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:onClick="onMyButtonClick"
-            android:text="Add"></Button>
+            android:text="Add" />
 
         <Button
-            android:id="@+id/buttonSearch"
-            android:layout_width="wrap_content"
+            android:id="@+id/buttonQuery"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:onClick="onMyButtonClick"
-            android:text="Search"></Button>
+            android:text="Query" />
     </LinearLayout>
 
     <ListView
         android:id="@android:id/list"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"></ListView>
+        android:layout_height="wrap_content" />
 </LinearLayout>

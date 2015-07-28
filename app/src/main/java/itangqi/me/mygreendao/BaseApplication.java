@@ -8,6 +8,8 @@ import me.itangqi.greendao.DaoSession;
 
 /**
  * Created by tangqi on 7/28/15.
+ * This way use can use the database/DAO objects across Activities.
+ * Leaving the database open for the life time of the application’s process makes things simple and efficient.
  */
 public class BaseApplication extends Application {
     public DaoSession daoSession;
