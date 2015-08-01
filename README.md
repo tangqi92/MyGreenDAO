@@ -9,7 +9,6 @@ MyGreenDAO 是我在学习使用 ORM 框架 greenDAO 时在官方提供的 Examp
 **Demo is still in development so more features will be added soon**
 
   - [Usage](#usage)
-  - [Getting Started](#getting-started)
   - [Download](#download)
   - [Documentation](#documentation)
   - [Thanks to](#thanks-to)
