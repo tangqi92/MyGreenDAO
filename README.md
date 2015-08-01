@@ -1,25 +1,41 @@
 MyGreenDAO
 ==========
- MyGreenDAO 是我在学习使用 ORM 框架 greenDAO 时精简出来的，旨在帮助大家能方便的在 Android Studio 上使用并扩展 [greenDAO](http://greendao-orm.com/)
 
-![](http://7xikfc.com1.z0.glb.clouddn.com/mygreendao_demo.gif)
-![](http://7xikfc.com1.z0.glb.clouddn.com/mygreendao_demo_2.png)
+<p>
+<img src="http://7xikfc.com1.z0.glb.clouddn.com/gr_logo.png" width="100px" height="100px" align="left" hspace="15px" />
+MyGreenDAO 是我在学习使用 ORM 框架 greenDAO 时在官方提供的 Example Project 上精简出来的 Demo，并添加了详细的注释说明，旨在帮助大家能快速了解、上手使用并扩展 greenDAO。我会持续跟新 MyGreenDAO，不断优化与添加新的功能，欢迎大家 Fork 与 Star 。                                      
+</p>                                                                        
+
+**Demo is still in development so more features will be added soon**
+
+  - [Usage](#usage)
+  - [Getting Started](#getting-started)
+  - [Download](#download)
+  - [Documentation](#documentation)
+  - [Thanks to](#thanks-to)
+  - [Contact Me](#contact-me)
+  - [License](#license)
+
 # Usage
 
-### Stept 1
-你可以选择「Clone」or 「Download」，当然，我非常欢迎你 **Fork** 与 **Star** 同时 **follow** 我，这是对我最大的肯定！
+### Dependency - 依赖
+  - Java Development Kit (JDK) 8 +
+  - com.android.tools.build:gradle:1.2.3
+  - Android SDK
+    - Android SDK Build-tools 22.0.1
 
-### Stept 2
 
-你可以通过如下图所示「Import an Android code sample」的方式导入工程  
+### Build - 构建
 
-![](http://7xikfc.com1.z0.glb.clouddn.com/Screen%20Shot%202015-07-26%20at%202.15.47%20PM_meitu_1.png)
+    git clone https://github.com/tangqi92/MyGreenDAO.git
 
- 你也可以通过如下图所示「File -> New -> Import Project」的方式导入  
- 
-![](http://7xikfc.com1.z0.glb.clouddn.com/Screen%20Shot%202015-07-26%20at%202.15.07%20PM.png)
+用最新的IntelliJ IDE导入工程（Import Project），然后等待IDE下载gradle和依赖包即可
 
-### Stept 3
+This project uses the Gradle build system. To build this project, use the "gradlew build" command or use "Import Project" in Android Studio.
+
+是时候和 Eclipse 说拜拜了，赶紧拥抱 [Android Studio](https://developer.android.com/sdk/index.html) 吧！！！
+
+### Modify - 修改
 
 如一切正常（compileSdkVersion 与 buildToolsVersion 等需根据自己实际情况更改），你只需要修改 [ExampleDaoGenerator](https://github.com/tangqi92/MyGreenDAO/blob/master/daoexamplegenerator/src/main/java/me/itangqi/ExampleDaoGenerator.java) 类中如下这条语句，「..」替换为你实际的存放目录即可   
 

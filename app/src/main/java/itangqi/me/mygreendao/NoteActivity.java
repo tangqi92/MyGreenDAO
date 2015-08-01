@@ -79,7 +79,7 @@ public class NoteActivity extends ListActivity {
         String comment = "Added on " + df.format(new Date());
 
         if (noteText == null || noteText.equals("")) {
-            ToastUtils.show(getApplicationContext(), "You just enter a empty note");
+            ToastUtils.show(getApplicationContext(), "Please enter a note to add");
         } else {
             // 插入操作，简单到只要你创建一个 Java 对象
             Note note = new Note(null, noteText, comment, new Date());
@@ -94,7 +94,7 @@ public class NoteActivity extends ListActivity {
         String noteText = editText.getText().toString();
         editText.setText("");
         if (noteText == null || noteText.equals("")) {
-            ToastUtils.show(getApplicationContext(), "You just query a empty note");
+            ToastUtils.show(getApplicationContext(), "Please enter a note to query");
         } else {
             // Query 类代表了一个可以被重复执行的查询
             Query query = getNoteDao().queryBuilder()
