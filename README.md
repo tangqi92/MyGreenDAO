@@ -4,7 +4,9 @@ MyGreenDAO
 <p>
 <img src="http://7xikfc.com1.z0.glb.clouddn.com/gr_logo.png" width="100px" height="100px" align="left" hspace="15px" />
 MyGreenDAO 是我在学习使用 ORM 框架 greenDAO 时在官方提供的 Example Project 上精简出来的 Demo，并添加了详细的注释说明，旨在帮助大家能快速了解、上手使用并扩展 greenDAO。我会持续跟新 MyGreenDAO，不断优化与添加新的功能，欢迎大家 Fork 与 Star 。                                      
-</p>                                                                        
+</p>       
+
+![](http://7xikfc.com1.z0.glb.clouddn.com/mygreendao-1.1.gif)                                                                 
 
 **Demo is still in development so more features will be added soon**
 
@@ -43,7 +45,7 @@ new DaoGenerator().generateAll(schema, "../MyGreenDAO/app/src/main/java-gen");
 ```  
 
 # Download
-[MyGreenDAO-1.0.0.apk](https://s3.amazonaws.com/github-cloud/releases/39712109/aa4b3f94-34bb-11e5-9322-dcc06b0ef936.apk?response-content-disposition=attachment%3B%20filename%3DMyGreenDAO-1.0.0.apk&response-content-type=application/vnd.android.package-archive&AWSAccessKeyId=AKIAISTNZFOVBIJMK3TQ&Expires=1438013219&Signature=9yBAk7Pc5vT3Wxr0bxZlv2ikkq0%3D)
+[MyGreenDAO-1.1.0.apk](https://s3.amazonaws.com/github-cloud/releases/39712109/de1dc75a-3854-11e5-872a-f2696e256c4b.apk?response-content-disposition=attachment%3B%20filename%3Dapp-release-unsigned.apk&response-content-type=application/vnd.android.package-archive&AWSAccessKeyId=AKIAISTNZFOVBIJMK3TQ&Expires=1438408589&Signature=kubXYNa9kfWODqDhAVwxU9tNInk%3D)
 
 # Documentation
 
