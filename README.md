@@ -45,7 +45,7 @@ new DaoGenerator().generateAll(schema, "../MyGreenDAO/app/src/main/java-gen");
 ```  
 
 # Download
-[MyGreenDAO-1.1.0.apk](https://s3.amazonaws.com/github-cloud/releases/39712109/de1dc75a-3854-11e5-872a-f2696e256c4b.apk?response-content-disposition=attachment%3B%20filename%3Dapp-release-unsigned.apk&response-content-type=application/vnd.android.package-archive&AWSAccessKeyId=AKIAISTNZFOVBIJMK3TQ&Expires=1438408589&Signature=kubXYNa9kfWODqDhAVwxU9tNInk%3D)
+[MyGreenDAO-1.1.0.apk](https://github.com/tangqi92/MyGreenDAO/releases/download/v1.1.0/app-release-unsigned.apk)
 
 # Documentation
 
