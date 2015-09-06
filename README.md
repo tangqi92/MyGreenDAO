@@ -50,7 +50,7 @@ new DaoGenerator().generateAll(schema, ".../MyGreenDAO/app/src/main/java-gen");
 
 # Documentation
 
-项目主页：[ORM 框架之 greenDAO 使用心得](http://itangqi.me/android/using-greendao-experience/)  
+项目主页：[ORM 框架之 greenDAO 使用心得](http://itangqi.me/2015/07/26/using-greendao-experience/)  
 
 # Thanks to
 
