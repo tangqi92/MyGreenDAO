@@ -50,7 +50,7 @@ new DaoGenerator().generateAll(schema, ".../MyGreenDAO/app/src/main/java-gen");
 
 # Documentation
 
-项目主页：[ORM 框架之 greenDAO 使用心得](http://itangqi.me/2015/07/26/orm-greendao-summary/)  
+项目主页：[ORM 框架之 greenDAO 使用心得](http://imtangqi.com/2015/07/26/orm-greendao-summary/)  
 
 # Thanks to
 
@@ -60,7 +60,7 @@ new DaoGenerator().generateAll(schema, ".../MyGreenDAO/app/src/main/java-gen");
 
 - Weibo：[@汤奇V](http://weibo.com/qiktang)
 - Gmail：[imtangqi#gmail.com](mailto:imtangqi@gmail.com "欢迎与我联系")
-- Blog: [http://itangqi.me](http://itangqi.me)  
+- Blog: [http://imtangqi.com](http://imtangqi.com)  
 
 # License
 
